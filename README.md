@@ -132,7 +132,7 @@ smart mobility and precision agriculture. My newer research thread is the inters
 | TERCOM: GNSS-denied navigation | OCTUNE: real-time controller tuning |
 | [![Obstacle-free navigation with PX4 + Fast-Planner](https://img.youtube.com/vi/KXXjLYjIxD0/mqdefault.jpg)](https://youtu.be/KXXjLYjIxD0) | [![Vision-based tracking of a moving vehicle](https://img.youtube.com/vi/5bqOWKYBr0k/mqdefault.jpg)](https://youtu.be/5bqOWKYBr0k) |
 | Obstacle-free navigation with PX4 + Fast-Planner | Vision-based tracking of a moving vehicle |
-| [![PSU on-campus drone delivery](https://img.youtube.com/vi/42VqK-V7Uhg/mqdefault.jpg)](https://youtu.be/42VqK-V7Uhg) | [![Multi-drone search and pick](https://img.youtube.com/vi/oDX5QexRK_I/mqdefault.jpg)](https://youtu.be/oDX5QexRK_I) |
+| [![PSU on-campus drone delivery](assets/psu-drone-delivery.jpg)](https://youtu.be/42VqK-V7Uhg) | [![Multi-drone search and pick](https://img.youtube.com/vi/oDX5QexRK_I/mqdefault.jpg)](https://youtu.be/oDX5QexRK_I) |
 | PSU on-campus drone delivery | Multi-drone search and pick |
 
 ## 📊 GitHub activity
