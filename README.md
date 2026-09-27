@@ -35,15 +35,15 @@ smart mobility and precision agriculture. My newer research thread is the inters
 ## 📄 Research code — papers with open-source implementations
 
 - **SMART-TRACK** — Kalman-filter-guided sensor fusion for robust UAV object tracking. *IEEE Sensors Journal*, 2024.
-  [[paper]](https://doi.org/10.1109/JSEN.2024.3505939) [[code]](https://github.com/mzahana/smart_track)
+  [[paper]](https://doi.org/10.1109/JSEN.2024.3505939) [[code]](https://github.com/mzahana/smart_track) [[video]](https://youtu.be/7ZM_gwgNcZg)
 - **VECTOR** — velocity-enhanced GRU network for real-time 3D UAV trajectory prediction. *Drones*, 2025.
-  [[paper]](https://doi.org/10.3390/drones9010008) [[code]](https://github.com/mzahana/drone_path_predictor_ros) [[dataset]](https://github.com/mzahana/drone_trajectories)
+  [[paper]](https://doi.org/10.3390/drones9010008) [[code]](https://github.com/mzahana/drone_path_predictor_ros) [[dataset]](https://github.com/mzahana/drone_trajectories) [[video]](https://youtu.be/CDp69R_izqo)
 - **VLM benchmarking** — vision-language models for automated quality control. *Scientific Reports*, 2026.
   [[paper]](https://doi.org/10.1038/s41598-026-55179-4) [[code]](https://github.com/mzahana/vlm-bench)
 - **TERCOM-EKF vs. ViSensorRF** — UAV localization in GNSS-denied environments. *Results in Engineering*, 2026.
-  [[paper]](https://doi.org/10.1016/j.rineng.2025.108279) [[code]](https://github.com/mzahana/tercom_nav)
+  [[paper]](https://doi.org/10.1016/j.rineng.2025.108279) [[code]](https://github.com/mzahana/tercom_nav) [[video]](https://youtu.be/uHy-kTAIA1A)
 - **OCTUNE** — optimal control tuning using real-time data. *Sensors*, 2022.
-  [[paper]](https://doi.org/10.3390/s22239240) [[code]](https://github.com/mzahana/octune) [[PX4 interface]](https://github.com/mzahana/px4_octune_ros)
+  [[paper]](https://doi.org/10.3390/s22239240) [[code]](https://github.com/mzahana/octune) [[PX4 interface]](https://github.com/mzahana/px4_octune_ros) [[video]](https://youtu.be/a3mrDvK2b-c)
 - **D2DTracker** — real-time trajectory prediction for agile drone-to-drone tracking. *IEEE UVS*, 2024.
   [[paper]](https://doi.org/10.1109/UVS59630.2024.10467173) [[detector]](https://github.com/mzahana/d2dtracker_drone_detector) [[prediction]](https://github.com/mzahana/d2dtracker_trajectory_prediction)
 - **FLIGHTGEN** — ROS 2-powered automated UAV dataset generator. *SMARTTECH*, Springer LNNS, 2025.
@@ -89,6 +89,11 @@ smart mobility and precision agriculture. My newer research thread is the inters
 | [**conveyor_sim_ros2**](https://github.com/mzahana/conveyor_sim_ros2) | Conveyor-belt simulation in Gazebo Harmonic with a ROS 2 interface | ![](https://img.shields.io/github/stars/mzahana/conveyor_sim_ros2?style=flat-square&label=%E2%98%85) |
 | [**containers**](https://github.com/mzahana/containers) | Reusable Docker containers for robotics development | ![](https://img.shields.io/github/stars/mzahana/containers?style=flat-square&label=%E2%98%85) |
 
+### 🧪 Lab tools
+| Repository | Description | |
+|---|---|---|
+| [**cortex**](https://github.com/mzahana/cortex) | Self-hosted lab asset & inventory management — QR-scan checkout, reservations, low-stock alerts | ![](https://img.shields.io/github/stars/mzahana/cortex?style=flat-square&label=%E2%98%85) |
+
 <p align="right"><a href="https://github.com/mzahana?tab=repositories&type=source&sort=stargazers">All repositories →</a></p>
 
 ## 🧰 Tech stack
@@ -121,9 +126,13 @@ smart mobility and precision agriculture. My newer research thread is the inters
 
 | | |
 |---|---|
-| [![PX4 + Fast-Planner obstacle avoidance](https://img.youtube.com/vi/KXXjLYjIxD0/mqdefault.jpg)](https://youtu.be/KXXjLYjIxD0) | [![Vision-based tracking of a moving target](https://img.youtube.com/vi/5bqOWKYBr0k/mqdefault.jpg)](https://youtu.be/5bqOWKYBr0k) |
+| [![SMART-TRACK: sensor-fusion target tracking](https://img.youtube.com/vi/7ZM_gwgNcZg/mqdefault.jpg)](https://youtu.be/7ZM_gwgNcZg) | [![VECTOR: GRU trajectory prediction](https://img.youtube.com/vi/CDp69R_izqo/mqdefault.jpg)](https://youtu.be/CDp69R_izqo) |
+| SMART-TRACK: sensor-fusion target tracking | VECTOR: GRU trajectory prediction |
+| [![TERCOM: GNSS-denied navigation](https://img.youtube.com/vi/uHy-kTAIA1A/mqdefault.jpg)](https://youtu.be/uHy-kTAIA1A) | [![OCTUNE: real-time controller tuning](https://img.youtube.com/vi/a3mrDvK2b-c/mqdefault.jpg)](https://youtu.be/a3mrDvK2b-c) |
+| TERCOM: GNSS-denied navigation | OCTUNE: real-time controller tuning |
+| [![Obstacle-free navigation with PX4 + Fast-Planner](https://img.youtube.com/vi/KXXjLYjIxD0/mqdefault.jpg)](https://youtu.be/KXXjLYjIxD0) | [![Vision-based tracking of a moving vehicle](https://img.youtube.com/vi/5bqOWKYBr0k/mqdefault.jpg)](https://youtu.be/5bqOWKYBr0k) |
 | Obstacle-free navigation with PX4 + Fast-Planner | Vision-based tracking of a moving vehicle |
-| [![PSU drone delivery system](https://img.youtube.com/vi/42VqK-V7Uhg/mqdefault.jpg)](https://youtu.be/42VqK-V7Uhg) | [![Multi-drone search and pick](https://img.youtube.com/vi/oDX5QexRK_I/mqdefault.jpg)](https://youtu.be/oDX5QexRK_I) |
+| [![PSU on-campus drone delivery](https://img.youtube.com/vi/42VqK-V7Uhg/mqdefault.jpg)](https://youtu.be/42VqK-V7Uhg) | [![Multi-drone search and pick](https://img.youtube.com/vi/oDX5QexRK_I/mqdefault.jpg)](https://youtu.be/oDX5QexRK_I) |
 | PSU on-campus drone delivery | Multi-drone search and pick |
 
 ## 📊 GitHub activity
